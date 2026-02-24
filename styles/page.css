@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.page {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 40px 120px;
+  color: #ffffff;
+  background-color: #1e1e1e;
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  .page {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+  }
+}
+/* Mobile */
+@media screen and (max-width: 320px) {
+  .page {
+    padding: 20px;
+  }
+}
