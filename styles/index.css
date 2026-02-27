@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(nav.css);
 @import url(page.css);
+@import url(main.css);
 @font-face {
   font-family: "Archivo Black";
   src:

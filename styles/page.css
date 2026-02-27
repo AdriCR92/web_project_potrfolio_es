@@ -5,7 +5,7 @@
   margin: 0 auto;
   max-width: 1440px;
   width: 100%;
-  padding: 40px 120px;
+  padding: 40px 120px 100px 120px;
   color: #ffffff;
   background-color: #1e1e1e;
 }
@@ -24,6 +24,7 @@
 /* Mobile */
 @media screen and (max-width: 320px) {
   .page {
+    width: 100%;
     padding: 20px;
   }
 }
