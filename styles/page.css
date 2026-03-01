@@ -5,8 +5,9 @@
   margin: 0 auto;
   max-width: 1440px;
   width: 100%;
-  padding: 40px 120px 100px 120px;
-  color: #ffffff;
+  padding-top: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
   background-color: #1e1e1e;
 }
 /* Tablet */
@@ -25,6 +26,8 @@
 @media screen and (max-width: 320px) {
   .page {
     width: 100%;
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
